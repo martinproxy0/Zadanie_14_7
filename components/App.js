@@ -1,4 +1,4 @@
-var contacts = [{
+const contacts = [{
         id: 1,
         firstName: 'Jan',
         lastName: 'Nowak',
@@ -18,20 +18,18 @@ var contacts = [{
     }
 ];
 
-var contactForm = {
+const contactForm = {
     firstName: '',
     lastName: '',
     email: ''
 };
 
 
-var App = React.createClass({
-    render: function() {
-        return (
-            React.createElement('div', { className: 'app' },
-                React.createElement(ContactForm, { contact: contactForm }),
-                React.createElement(Contacts, { items: contacts }, {})
-            )
-        );
-    }
-});
+function App (){
+    return (
+        <div className={'app'}>
+            <ContactForm contact={contactForm} />
+            <Contacts items={contacts} />
+        </div>
+    );
+};
