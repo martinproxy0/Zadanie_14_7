@@ -1,0 +1,24 @@
+{
+    "name": "zadanie_14_7",
+    "version": "1.0.0",
+    "description": "14.7. JSX - lekarstwo na problematyczną składnię tworzenia nowych elementów",
+    "main": "script.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "nodemon server.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/martinproxy0/Zadanie_14_7.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/martinproxy0/Zadanie_14_7/issues"
+    },
+    "homepage": "https://github.com/martinproxy0/Zadanie_14_7#readme",
+    "dependencies": {
+        "babel-standalone": "^6.26.0"
+    }
+}
