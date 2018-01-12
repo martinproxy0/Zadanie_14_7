@@ -19,6 +19,10 @@
     },
     "homepage": "https://github.com/martinproxy0/Zadanie_14_7#readme",
     "dependencies": {
-        "babel-standalone": "^6.26.0"
+        "babel-standalone": "^6.26.0",
+        "eslint": "^4.15.0"
+    },
+    "devDependencies": {
+        "eslint-config-google": "^0.9.1"
     }
 }
